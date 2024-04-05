@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Header */
+.header{
+    height: 88px;
+    display: flex;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+.header__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header__logo > h2{
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+.header > nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.header > nav > button{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.header nav > p{
+    font-weight: bold;
+}
+
+/* --------------------------------- */
+
+/* section - apresentacao */
+.apresentacao{
+    margin: 2rem 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 5.5rem;
+}
+
+.apresentacao > img{
+    object-fit: cover;
+    height: 368px;
+    width: 368px;
+    border-radius: 50%;
+}
+
+.apresentacao__container{
+    width: 751px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.apresentacao__titulo{
+    font-size: 3rem;
+}
+
+.apresentacao__paragrafo{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.apresentacao__links{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.apresentacao__links > a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
