@@ -14,11 +14,16 @@ body{
 
 button{
     border: none;
+    background-color: transparent;
     cursor: pointer;
+}
+section{
+    width: 100%;
 }
 
 main{
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 2rem;
 }
