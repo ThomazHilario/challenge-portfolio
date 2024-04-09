@@ -327,6 +327,65 @@
     }
 }
 
+.experiencia__profissional{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.experiencia__container{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.experiencia__cards{
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.experiencia__cards > img{
+    height: 144px;
+    border-radius: 5px;
+}
+.informacoes__projeto{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 110px;
+}
+
+.informacoes__projeto > h1{
+    font-size: 16px;
+}
+
+.informacoes__projeto > h2{
+    font-size: 14px;
+}
+
+.container__links{
+    margin-top: 5px;
+}
+
+.container__links > a{
+    background-color: rgb(88, 88, 167);
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 3px;
+
+    border-radius: 2px;
+    color: white;
+}
+
+.container__links > a:nth-child(2){
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
 /* --------------------------------- */
 .footer{
     color: #373737;
