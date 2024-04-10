@@ -539,7 +539,7 @@
 .footer{
     color: #373737;
     height: 102px;
-    background-color: white;
+    background-color: #ddd3dd;
     display: flex;
     flex-direction: column;
     justify-content: center;
