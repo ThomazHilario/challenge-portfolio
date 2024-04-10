@@ -302,10 +302,39 @@
 
 .formacao__card{
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 296px;
     height: 169px;
 }
 
+.estacio > img{
+    height: 230px;
+}
+
+.container__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.card__informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    color: #464646;
+}
+
+.card__informacoes > h1{
+    font-size: 1.3rem;
+}
+
+.card__informacoes > h2{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
 @media screen and (min-width:640px){
     .formacao__academica{
         padding: 0;
