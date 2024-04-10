@@ -277,10 +277,18 @@
 }
 
 .hobbies__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
     background-color: white;
     height: 174px;
     width: 176px;
     border-radius:0.25rem;
+    padding: 10px;
+}
+
+.hobbies__card > h1{
+    font-size: 1rem;
 }
 
 /* --------------------------------- */
